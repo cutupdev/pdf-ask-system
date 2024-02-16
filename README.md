@@ -2,7 +2,7 @@
 
 
 
-Thank you for your interest in my application. Please be aware that this is only a **Proof of Concept system** and may contain bugs or unfinished features. If you like this app you can ❤️ [follow me](https://twitter.com/KerbalFPV) on Twitter for news and updates.
+Thank you for your interest in my application. Please be aware that this is only a **Proof of Concept system** and may contain bugs or unfinished features.
 
 
 
@@ -11,10 +11,6 @@ Thank you for your interest in my application. Please be aware that this is only
 
 
 🎲 The primary use case for this app is to assist users in answering  questions about board game rules based on the instruction manual. While  the app can be used for other tasks, helping users with board game rules is particularly meaningful to me since I'm an avid fan of board games  myself. Additionally, this use case is relatively harmless, even in  cases where the model may experience hallucinations.
-
-
-
-🌐 The app can be accessed on the Streamlit Community Cloud at https://ask-my-pdf.streamlit.app/. 🔑 However, to use the app, you will need your own [OpenAI's API key](https://platform.openai.com/account/api-keys).
 
 
 
@@ -32,7 +28,7 @@ Thank you for your interest in my application. Please be aware that this is only
 
 1. Clone the repo:
 
-   `git clone https://github.com/mobarski/ask-my-pdf`
+   `git clone https://github.com/catlover75926/pdf-ask-system`
 
 2. Install dependencies:
 
@@ -105,12 +101,6 @@ Thank you for your interest in my application. Please be aware that this is only
 - **S3_CACHE_BUCKET** - bucket name (cache)
 
 - **S3_CACHE_PREFIX** - object name prefix (cache)
-
-  
-
-##### Redis configuration (for persistent usage statistics / user feedback):
-
-- **REDIS_URL** - Redis DB URL (redis[s]://:password@host:port/[db])
 
   
 
